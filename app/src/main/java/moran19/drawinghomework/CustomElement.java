@@ -1,3 +1,5 @@
+package moran19.drawinghomework;
+
 import java.util.Random;
 
 import android.graphics.Canvas;
@@ -5,7 +7,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 
 /**
- * <!-- class CustomElement -->
+ * <!-- class moran19.drawinghomework.CustomElement -->
  *
  * This class defines an element of a drawing. All such elements must have
  * certain methods and variables to work with this app.
@@ -117,4 +119,4 @@ public abstract class CustomElement {
      */
     public abstract void drawHighlight(Canvas canvas);
 
-}// class CustomElement
+}// class moran19.drawinghomework.CustomElement

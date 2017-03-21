@@ -1,8 +1,10 @@
+package moran19.drawinghomework;
+
 import android.graphics.Canvas;
 import android.graphics.Rect;
 
 /**
- * <!-- class CustomCircle -->
+ * <!-- class moran19.drawinghomework.CustomCircle -->
  *
  * This class defines a custom drawing element that is a circle.
  *
@@ -45,7 +47,7 @@ public class CustomCircle extends CustomElement {
         int yDist = Math.abs(y - this.y);
         int dist = (int)Math.sqrt(xDist*xDist + yDist*yDist);  //Thanks, Pythagoras :)
 
-        return (dist < this.radius + TAP_MARGIN);
+        return (dist < this.radius + CustomElement.TAP_MARGIN);
     }//contaisPoint
 
 
@@ -62,4 +64,4 @@ public class CustomCircle extends CustomElement {
         canvas.drawCircle(x, y, radius, outlinePaint);  //keep outline so it stands out
     }
 
-}//class CustomCircle
+}//class moran19.drawinghomework.CustomCircle

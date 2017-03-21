@@ -1,8 +1,12 @@
+package moran19.drawinghomework;
+
 import android.graphics.Canvas;
 import android.graphics.Rect;
 
+import moran19.drawinghomework.CustomElement;
+
 /**
- * <!-- class CustomRect -->
+ * <!-- class moran19.drawinghomework.CustomRect -->
  *
  * This class defines a custom drawing element that is a rectangle.
  *
@@ -62,4 +66,4 @@ public class CustomRect extends CustomElement {
 
 
 
-}//class CustomRect
+}//class moran19.drawinghomework.CustomRect
